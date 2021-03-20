@@ -1,0 +1,175 @@
+/*.container{
+  margin:2% 25%;
+}
+/* .card{
+  padding-top: 5%;
+  padding-bottom: 5%;
+} 
+.heading{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 5%;
+}
+#input{
+  border-radius:25px;
+  padding:20px;
+  padding-left:25px;
+  margin-left: 15%;
+  margin-bottom:-10px;
+}
+#sign-btn {
+  position: relative;
+  display: block;
+  padding:14px 28px;
+  margin-left:35%;
+  width:25%;
+  background:transparent;
+  color: #55c5f1;
+  font-size: 16px;
+  border-radius:5px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  cursor: pointer; 
+  outline: none;
+}
+#sign-btn:hover {
+  background: #03e9f4;
+  color: #fff;
+  width:50%;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+
+}
+
+
+#sign-btn:hover {
+  background: #03e9f4;
+  color: #fff;
+  width:25%;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
+
+#sign-btn span {
+  position: absolute; 
+  display: block;
+}
+
+#sign-btn span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width:2px;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: btn-anim1 1s linear infinite;
+}
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+#sign-btn span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+#sign-btn span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width:50%;
+  height: 100%;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+#sign-btn span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+} 
+
+*/
+
+
+#logo{
+  height: 46px;
+  width: 61px;
+  margin-right: 45px; 
+  /* margin-left: -30px; */
+}
+#logo:hover{
+  background: green;
+}
+#button1{
+ margin-right: 23px;  
+  font-weight: 600;
+}
+#button2{ 
+  font-weight: 600;
+  margin-right: 6px;
+} 
+.navbar-nav li a{
+  color:#fff;
+  font-weight: 600;
+}
+
+#homeImg{
+  max-width: 100%;
+  height: 750px;
+  background-size: 100% 100%;
+}
+
+

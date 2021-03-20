@@ -1,0 +1,73 @@
+#logo{
+    height: 60px !important;
+    width: 80px !important;
+    margin-right: 45px; 
+    margin-top: 2% !important;
+  }
+  #button1:hover{
+    background: #f6d327 !important;
+    color: black;
+    font-weight: 900;
+    border: none;
+    outline: none;
+  }
+  #button2:hover{
+    background: #f6d327 !important;
+    color: black;
+    font-weight: 900;
+    border: none;
+    outline: none;
+  }
+  #button3:hover{
+      background: #f6d327 !important;
+      color: black;
+      font-weight: 900;
+      border: none;
+      outline: none;
+  }
+  #button1{
+    margin-top: 4% !important;
+  margin-left:180px;
+  margin-right: 40px;
+    width:220px !important;
+   font-size: 15px;
+    background: transparent;
+    color:#f6d327;
+    border: solid #f6d327;
+    font-weight: 600px;
+    text-transform: uppercase;
+  }
+  #button2{ 
+
+    width: 300px;
+    margin-top: 4% !important;
+    background: transparent;
+    color:#f6d327;
+    border: solid #f6d327;
+    font-weight: 600px;
+    text-transform: uppercase;
+    margin-left: 4%;
+  } 
+  #button3{
+    margin-top: 4% !important;
+    background: transparent;
+    color:#f6d327;
+    border: solid #f6d327;
+    font-weight: 600px;
+    text-transform: uppercase;
+  }
+  .navbar-nav li a{
+    color:#fff;
+    font-weight: 600 !important;
+  }
+  #navbar{
+      margin-top: -2% !important;
+      margin-bottom: -5% !important;
+  }
+  .nav-item{
+    font-size: 20px !important;
+    margin-top: 2% !important;
+    margin-bottom: -3% !important;
+    margin-right: 15px;
+}
+

@@ -1,0 +1,16 @@
+.search{
+    margin-top: 8%;
+    padding:10px 30px;
+    margin-left:45%;
+    text-align: center;
+    border:2px solid #693c00;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    grid-auto-rows: 400px;
+}

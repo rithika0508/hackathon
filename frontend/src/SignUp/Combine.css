@@ -1,0 +1,166 @@
+.card{
+    margin-top: 100px !important;
+    /* background: linear-gradient(180deg, #ffa329, #ffb95c, #ffcf8f); */
+}
+.container{
+    margin-bottom:100px;
+}
+  .card{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 5%;
+    color:#f19e32;
+    text-transform: uppercase;
+  }
+  #input{
+    border-radius:25px;
+    padding:20px;
+    padding-left:25px;
+    /* margin-right:20px; */
+    margin-left: 15%;
+    margin-bottom:-10px;
+  }
+  .btn {
+    position: relative;
+    display: block;
+    /* padding:14px 28px; */
+    height: 10% !important;
+    width: 45% !important;
+    margin-top: 390px !important;
+    margin-left:118%;
+    width:25%;
+    background:transparent;
+    color:  #ffb95c;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    border:2px solid  #ffb95c;
+    /* padding-left:200px !important;
+    padding-right:20px !important; */
+    }
+  .btn:hover {
+    background:  #ffb95c;
+    color: #fff;
+    width:50%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px  #ffb95c,
+                0 0 25px  #ffb95c,
+                0 0 50px  #ffb95c,
+               
+  
+  }
+  
+  
+  .btn:hover {
+    background:  #ffb95c;
+    color: #fff;
+    width:25%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px  #ffb95c,
+                0 0 25px  #ffb95c,
+                0 0 50px  #ffb95c,
+              
+  }
+  
+  .btn span {
+    position: absolute; 
+    display: block;
+  }
+  
+  .btn span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width:2px;
+    height: 100%;
+    background: linear-gradient(90deg, transparent,  #ffb95c);
+    animation: btn-anim1 1s linear infinite;
+  }
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  .btn span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent,  #ffb95c);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+  }
+  
+  .btn span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width:50%;
+    height: 100%;
+    background: linear-gradient(270deg, transparent,  #ffb95c);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  .btn span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent,  #ffb95c);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
+  }
+  /* *{
+    background-image: url(./Yellow\ Accounting\ Business_Advertising\ Website.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+  #signInvestor{
+    background: linear-gradient(180deg, #ffa329, #ffb95c, #ffcf8f);
+    padding-bottom: 5%;
+  }
+  #signStart{
+    background: linear-gradient(180deg, #ffa329, #ffb95c, #ffcf8f);
+    padding-bottom: 5%;
+  }
